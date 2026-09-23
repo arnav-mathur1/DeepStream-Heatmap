@@ -42,6 +42,7 @@ To use it:
 
 Example configuration:
 
+```text
 [heatmap_overlay]
 enable=1
 source_id=0
@@ -49,6 +50,7 @@ decay=0.985
 sigma_px=28
 alpha_max=0.65
 splat=0.55
+```
 
 The main parameters control how quickly old detections fade, how broadly each detection contributes to the heatmap, and how strongly the resulting heatmap is blended onto the video.
 
